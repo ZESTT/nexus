@@ -12,7 +12,7 @@ import { Footer } from "../components/Footer";
 import { FacebookFeedSection } from "../components/FacebookFeedSection";
 // 🆕 Import the new component
 import { StudentsGalleryPreview } from "../components/StudentsGalleryPreview"; 
-
+import { PartnersSection } from "../components/PartnersSection";
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -28,6 +28,8 @@ export const Home = () => {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+        <PartnersSection />
+
         <ProjectsSection />
         {/* 🆕 Place the new component here */}
         <StudentsGalleryPreview /> 
