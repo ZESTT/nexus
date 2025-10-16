@@ -35,7 +35,7 @@ export const PartnersSection = () => {
         {/* 1. العنوان الرئيسي */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white sm:text-5xl">
-             🤝  شركاء النجاح <span className="text-primary" >   والمصداقية </span> 
+             🤝  شركاء النجاح <span className="text-primary" > </span> 
           </h2>
           {/* النص الوصفي: نص داكن في الفاتح ورمادي فاتح في الداكن */}
           <p className="mt-4 text-3xl  text-gray-900 dark:text-gray-400 max-w-3xl mx-auto font-extrabold">
