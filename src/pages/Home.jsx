@@ -9,6 +9,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
+import { FacebookFeedSection } from "../components/FacebookFeedSection";
 // 🆕 Import the new component
 import { StudentsGalleryPreview } from "../components/StudentsGalleryPreview"; 
 
@@ -30,6 +31,7 @@ export const Home = () => {
         <ProjectsSection />
         {/* 🆕 Place the new component here */}
         <StudentsGalleryPreview /> 
+        <FacebookFeedSection />
         <ContactSection />
       </main>
 
